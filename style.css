@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P); 
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P); 
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+
+
+* {
+    font-family: var(--font-headline);
+    margin: 0;
+    padding: 0;
+}
+
+.section_1 {
+    background: #404eed;
+    height: 650px;
+}
+
+.img_section_1 {
+    background-image: url(assets/e6d57714479874c665b36c7adee76b1d.svg);
+    background-position: bottom;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.title_web_h1 {
+    margin: 30px;
+    color: white;
+}
+
+.title_web_h1>h1 {
+    font-size: 26px;
+}
+
+.link_navbar>a {
+    margin: 0 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.open_discord {
+    margin: 0 50px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.description_web {
+    height: 579px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_description {
+    color: white;
+    font-size: 70px;
+}
+
+.text_description_web {
+    width: 680px;
+    font-size: 18.4px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.button_description_web>a {
+    margin: 0 40px;
+    padding: 16px 32px;
+    border-radius: 28px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.button_download_windows {
+    background-color: #fff;
+    color: #23272a;
+}
+
+.open_into_web {
+    background-color: #23272a;
+    color: #fff;
+}
+
+
